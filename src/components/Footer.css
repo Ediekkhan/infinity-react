@@ -1,0 +1,9 @@
+.copy{
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+    font-weight: 600;
+    color: #ccc;
+}
