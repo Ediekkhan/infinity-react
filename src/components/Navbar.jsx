@@ -36,6 +36,14 @@ function Navbar() {
         {/* Dropdown menu */}
         <div className={`md:flex md:items-center md:space-x-4 md:absolute md:right-4 ${isOpen ? 'block' : 'hidden'}`}>
           <div className="md:flex md:space-x-4">
+
+          <NavLink
+              to="/"
+              activeClassName="text-black-400"
+              className="text-gray text-decoration-none hover:text-white px-3 py-2 rounded-md text-m font-medium"
+            >
+              Home
+            </NavLink>
             <NavLink
               to="/classes"
               activeClassName="text-black-400"

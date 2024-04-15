@@ -6,42 +6,42 @@ function Footer() {
 
   return (
    <div >
-     <div class="row  px-5 justify-content-center  justify-content-between flex bg-black text-white pt-12 " >
+     <div class=" px-5 justify-content-center  justify-content-between flex bg-black text-white pt-12 " >
 
-          <div class="col-lg-2 text-decoration-none pt-5">
+          <div class="col-lg-2  pt-3">
             <i class="fa-light fa-dumbbell fs-1"></i>
             <h4>About</h4>
-            <a href=""><h6>History</h6></a>
-            <a href=""> <h6>Fit Club in a nutshel</h6> </a>
-            <a href=""> <h6>  What we do</h6></a>
-            <a href=""> <h6>  What we do</h6></a>
-            <a href=""> <h6>  Location</h6></a>
-            <a href=""> <h6>  Management Team</h6></a>
+            <a href="/#"><h6>History</h6></a>
+            <a href="/#"> <h6>Fit Club in a nutshel</h6> </a>
+            <a href="/#"> <h6>  What we do</h6></a>
+            <a href="/"> <h6>  What we do</h6></a>
+            <a href="/#"> <h6>  Location</h6></a>
+            <a href="/#"> <h6>  Management Team</h6></a>
             
           </div>
 
-          <div class="col-lg-2 pt-5">
+          <div class="col-lg-2 pt-3">
             <i class="fa-light fa-dumbbell fs-1"></i>
             <h4>Too Fit to Quit</h4>
-            <a href=""><h6>History</h6></a>
-            <a href=""> <h6>Fit Club in a nutshel</h6> </a>
-            <a href=""> <h6>  What we do</h6></a>
-            <a href=""> <h6>  What we do</h6></a>
-            <a href=""> <h6>  Location</h6></a>
-            <a href=""> <h6>  Management Team</h6></a>
+            <a href="/#"><h6>History</h6></a>
+            <a href="/#"> <h6>Fit Club in a nutshel</h6> </a>
+            <a href="/#"> <h6>  What we do</h6></a>
+            <a href="/#"> <h6>  What we do</h6></a>
+            <a href="/#"> <h6>  Location</h6></a>
+            <a href="/#"> <h6>  Management Team</h6></a>
             
 
           </div>
 
-          <div class="col-lg-2 pt-5">
+          <div class="col-lg-2 pt-3">
             <i class="fa-light fa-dumbbell fs-1"></i>
             <h4>Too Fit to Quit</h4>
-            <a href=""><h6>History</h6></a>
-            <a href=""> <h6>Fit Club in a nutshel</h6> </a>
-            <a href=""> <h6>  What we do</h6></a>
-            <a href=""> <h6>  What we do</h6></a>
-            <a href=""> <h6>  Location</h6></a>
-            <a href=""> <h6>  Management Team</h6></a>
+            <a href="/#"><h6>History</h6></a>
+            <a href="/#"> <h6>Fit Club in a nutshel</h6> </a>
+            <a href="/#"> <h6>  What we do</h6></a>
+            <a href="/#"> <h6>  What we do</h6></a>
+            <a href="/#"> <h6>  Location</h6></a>
+            <a href="/#"> <h6>  Management Team</h6></a>
           
 
           </div>
@@ -49,7 +49,7 @@ function Footer() {
           
 
 
-          <section class=" bg-dark second-section col-lg-4 align-items-center  mt-2 justify-content-center pt-4">
+          <section class=" bg-black second-section col-lg-4 align-items-center  mt-2 justify-content-center pt-4">
 
             <div class="news-letter text-light text-center pt-1 ">
 
@@ -64,8 +64,7 @@ function Footer() {
                 <button class="  ml-28 mt-4 btn btn-outline-light" type="submit">SUBSCRIBE</button>
             </form>
 
-
-        </section>
+          </section>
 
       </div>
 
