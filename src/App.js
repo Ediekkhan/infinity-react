@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Classes from "./pages/Classes";
 import Blog from "./pages/Blog";
 import Home from "./pages/Home";
+import Location from "./components/Location";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </Routes>
       </BrowserRouter>
      
+     <Location />
       <Footer />
     </div>
   );

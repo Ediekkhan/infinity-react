@@ -10,12 +10,12 @@ function Navbar() {
 
   return (
     <nav className="bg-black py-2 px-4">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
         <NavLink to="/" className="text-gray text-xl text-decoration-none font-bold">
           INFINITY GYM
         </NavLink>
 
-        <div className="md:hidden">
+        <div className="md:hidden ">
           {/* Dropdown toggle button */}
           <button
             onClick={toggleNavbar}
@@ -34,10 +34,9 @@ function Navbar() {
         </div>
 
         {/* Dropdown menu */}
-        <div className={`md:flex md:items-center md:space-x-4 md:absolute md:right-4 ${isOpen ? 'block' : 'hidden'}`}>
-          <div className="md:flex md:space-x-4">
-
-          <NavLink
+        <div className={`md:flex md:items-center md:space-x-4 ${isOpen ? 'block' : 'hidden'}`}>
+          <div className=" flex flex-col md:flex-row md:space-x-4">
+            <NavLink
               to="/"
               activeClassName="text-black-400"
               className="text-gray text-decoration-none hover:text-white px-3 py-2 rounded-md text-m font-medium"

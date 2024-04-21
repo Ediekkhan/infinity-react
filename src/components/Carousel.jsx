@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 import image1 from '../assets/img/threeadmill.jpg';
 import image2 from '../assets/img/swqatboth.jpg';
 import image3 from '../assets/img/oldfit.jpg';
@@ -20,25 +19,33 @@ function Carousel() {
   }, []);
 
   return (
-    <div
-      className="w-full h-screen bg-cover flex items-center justify-center"
-      style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
-    >
-       <div class=" text-center d-none d-md-block text-light">
-                  
-                  <div class="text-first py-4 font-bold ">
-                    
-                    <h3 class="text-light">BE AN INSPIRATION</h3>
-                    <h1 class="text-primary">GET FIT & GET HEALTHY!</h1>
-                    <h4 class="text-light">Promoting fitness lifestyle and  <br /> healthy life has never been easier.</h4>
-            
-                  </div>
-            
-                  <button type="button" class="btn btn-lg btn-primary mx-3 ">View our Sample </button>
-                  <button type="button" class="btn btn-lg btn-secondary  mx-3">Theme Features </button>
-            
-                
-              </div>
+    <div className="w-full h-screen relative">
+      <img
+        src={images[currentImageIndex]}
+        alt="carousel"
+        className="w-full h-full object-cover"
+      />
+      <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-center text-white px-6 py-12">
+        <div className="text-first mb-4">
+          <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-2">
+            BE AN INSPIRATION
+          </h3>
+          <h1 className="text-xl sm:text-2xl lg:text-4xl font-bold mb-4">
+            GET FIT & GET HEALTHY!
+          </h1>
+          <h4 className="text-sm sm:text-base lg:text-lg">
+            Promoting fitness lifestyle and healthy life has never been easier.
+          </h4>
+        </div>
+        <div className="flex flex-wrap justify-center">
+          <button className="btn btn-lg btn-primary m-2">
+            View our Sample
+          </button>
+          <button className="btn btn-lg btn-secondary m-2">
+            Theme Features
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
