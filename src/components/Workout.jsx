@@ -7,41 +7,47 @@ import img3 from '../assets/img/crunches.jpg';
 const Workout = () => {
   return (
     <div className="bg-gray-600 text-light py-5 text-center">
-      <h5 className="text-blue-700 font-bold bg-black py-2">OUR CLASSES</h5>
-      <h3>WHAT WE OFFER</h3>
+      <h5 className="text-blue-700 font-bold bg-black">OUR CLASSES</h5>
+      <h3>WHAT WE CAN OFFER</h3>
 
-      <div className="flex justify-center gap-8 mt-8">
-        <div className="flex flex-col items-center">
-          <div className="rounded-full overflow-hidden">
-            <img src={img1} alt="aerobics" className="w-40 h-40 object-cover" />
+      <div className="flex flex-wrap justify-center">
+        <div className="w-full md:w-1/3 px-5 mb-5 md:mb-0">
+          <div className="bg-black  overflow-hidden">
+            <img src={img1} alt="aerobics" className="w-full" />
           </div>
-          <div className="text-start mt-4">
-            <p className="font-semibold text-blue-700">WEIGHT-LOSS</p>
-            <p>AEROBICS</p>
+          <div className="flex justify-between bg-black px-3 py-2">
+            <div>
+              <p className="font-semibold text-blue-700">WEIGHT-LOSS</p>
+              <p>AEROBICS</p>
+            </div>
+            <a href="/" className="hover:text-white"><GoChevronRight size={32} /></a>
           </div>
-          <a href="/" className="text-blue-300 hover:text-white mt-2"><GoChevronRight size={32} /></a>
         </div>
 
-        <div className="flex flex-col items-center">
-          <div className="rounded-full overflow-hidden">
-            <img src={img2} alt="barswat" className="w-40 h-40 object-cover" />
+        <div className="w-full md:w-1/3 px-5 mb-5 md:mb-0">
+          <div className="bg-black  overflow-hidden">
+            <img src={img2} alt="squats" className="w-full" />
           </div>
-          <div className="text-start mt-4">
-            <p className="font-semibold text-blue-700">BODY-SHAPE</p>
-            <p>SQUAT</p>
+          <div className="flex justify-between bg-black px-3 py-2">
+            <div>
+              <p className="font-semibold text-blue-700">BODY-SHAPE</p>
+              <p>SQUATS</p>
+            </div>
+            <a href="/" className="hover:text-white"><GoChevronRight size={32} /></a>
           </div>
-          <a href="/" className="text-blue-300 hover:text-white mt-2"><GoChevronRight size={32} /></a>
         </div>
 
-        <div className="flex flex-col items-center">
-          <div className="rounded-full overflow-hidden">
-            <img src={img3} alt="crunches" className="w-40 h-40 object-cover" />
+        <div className="w-full md:w-1/3 px-5">
+          <div className="bg-black  overflow-hidden">
+            <img src={img3} alt="weight-lifting" className="w-full" />
           </div>
-          <div className="text-start mt-4">
-            <p className="font-semibold text-blue-700">STRENGTH</p>
-            <p>WEIGHT-LIFTING</p>
+          <div className="flex justify-between bg-black px-3 py-2">
+            <div>
+              <p className="font-semibold text-blue-700">STRENGTH</p>
+              <p>WEIGHT-LIFTING</p>
+            </div>
+            <a href="/" className="hover:text-white"><GoChevronRight size={32} /></a>
           </div>
-          <a href="/" className="text-blue-300 hover:text-white mt-2"><GoChevronRight size={32} /></a>
         </div>
       </div>
     </div>
