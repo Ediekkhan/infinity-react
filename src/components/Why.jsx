@@ -8,6 +8,7 @@ function Why() {
       <h3>PUSH YOUR LIMITS FORWARD</h3>
 
       <div className="flex flex-wrap justify-center mx-auto max-w-6xl px-1">
+       
         <div className="w-full sm:w-1/2 md:w-1/4 px-4 py-3">
           <div className="flex items-center justify-center mb-3 rounded-full bg-white p-3">
             <FaHeartbeat color="blue" size={40} />

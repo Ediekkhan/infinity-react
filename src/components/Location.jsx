@@ -21,10 +21,11 @@ function Location() {
         </span>
       </div>
 
-      <div className="flex items-center">
+      <div className="flex items-center text-white">
         <MdOutlineMail size={40} className="mr-2" />
         <span className="text-white font-semibold">
-          ndaabasi.christantus@gmail.com
+          <a href="mailto:" className='text-white text-decoration-none'>@ndaabasi.christantus@gmail.com</a>
+
         </span>
       </div>
     </div>

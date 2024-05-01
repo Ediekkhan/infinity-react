@@ -14,7 +14,6 @@ function Home() {
         < Appointment />
         <Subcription />
 
-        {/* <a href="/#" className="text-blue-500 bg-black hover:text-blue-700">Visit our website</a> */}
         
     </div>
   )

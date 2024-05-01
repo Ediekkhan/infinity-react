@@ -9,9 +9,10 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-black py-2 px-4">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
-        <NavLink to="/" className="text-gray text-xl text-decoration-none font-bold">
+    <nav className="bg-black py-2 px-4" >
+      <div className="flex max-md:flex-col ">
+      <div className="max-w-7xl mx-auto flex flex-row md:flex-row justify-between  ml-[-180px] w-[700px] max-md:w-[253px] items-center max-md:flex-row max-md:justify-around max-md:items-around max-md:wrap">
+        <NavLink to="/" className="text-gray text-xl text-decoration-none     max-md:ml-0  max-md:mr-[60%] font-bold">
           INFINITY GYM
         </NavLink>
 
@@ -22,7 +23,7 @@ function Navbar() {
             className="text-gray hover:text-white focus:outline-none"
             aria-label="Toggle navigation"
           >
-            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg className="h-6 r-[30px] w-6 max-md:absolute  max-md:top-[10px]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -34,7 +35,9 @@ function Navbar() {
         </div>
 
         {/* Dropdown menu */}
-        <div className={`md:flex md:items-center md:space-x-4 ${isOpen ? 'block' : 'hidden'}`}>
+       
+      </div>
+      <div className={`md:flex md:items-center md:space-x-4 ${isOpen ? 'block' : 'hidden'}`}>
           <div className=" flex flex-col md:flex-row md:space-x-4">
             <NavLink
               to="/"
@@ -80,7 +83,7 @@ function Navbar() {
             </NavLink>
           </div>
         </div>
-      </div>
+        </div>
     </nav>
   );
 }

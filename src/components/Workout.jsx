@@ -24,7 +24,7 @@ const Workout = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-1/3 px-5 mb-5 md:mb-0">
+        <div className=" from-current w-full md:w-1/3 px-5 mb-5 md:mb-0">
           <div className="bg-black  overflow-hidden">
             <img src={img2} alt="squats" className="w-full" />
           </div>
