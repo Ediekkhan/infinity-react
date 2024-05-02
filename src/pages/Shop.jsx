@@ -47,7 +47,7 @@ const Shop = () => {
     },
     {
       id: 8,
-      name: 'Gym bags and backpacks',
+      name: 'Gym backpacks',
       price: 19.99,
       imageUrl: 'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/84/2154461/1.jpg?4442',
     },
@@ -65,9 +65,9 @@ const Shop = () => {
             <div className="p-4">
 
               <div>
-                <h3 className="text-sm sm:text-xl md:text-xl font-extralight mb-2  ">{product.name}</h3>
+                <h3 className="text-sm sm:text-xl md:text-xl font-medium mb-2  ">{product.name}</h3>
                 <p className="text-gray-600 mb-2">${product.price}</p>
-                <button className="bg-blue-500 text-white md:py-2  p-2 md:px-4  lg:px-8 rounded-md hover:bg-blue-600 focus:outline-none">
+                <button className="bg-blue-500 text-white text-xs sm:text-sm lg:text-base  md:text-base  md:py-2 font-bold p-2 md:px-4  lg:px-8 rounded-md hover:bg-blue-600 focus:outline-none">
                   Add to Cart
                 </button>
               </div>
