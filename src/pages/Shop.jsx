@@ -55,8 +55,8 @@ const Shop = () => {
 
   return (
     <div className="container  bg-gray-100 mx-auto px-4 py-8">
-      <h2 className="text-3xl sm:font-light font-semibold mb-4 text-center ">Shop Our Products</h2>
-      <div className="grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <h2 className="text-3xl  md:font-bold sm:font-semibold mb-4 text-center">Shop Our Products</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 
 
         {products.map(product => (
@@ -64,7 +64,7 @@ const Shop = () => {
             <img src={product.imageUrl} alt={product.name} className="w-full h-48 object-cover" />
             <div className="p-4">
 
-              <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
+              <h3 className="text-xl  font-extralight lg:font-semibold mb-2 sm:font-normal md:font-medium ">{product.name}</h3>
               <p className="text-gray-600 mb-2">${product.price}</p>
               <button className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none">
                 Add to Cart
