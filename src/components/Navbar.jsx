@@ -53,13 +53,7 @@ function Navbar() {
             >
               Classes
             </NavLink>
-            <NavLink
-              to="/about"
-              activeClassName="text-indigo-400"
-              className="text-gray text-decoration-none hover:text-white px-3 py-2 rounded-md text-m font-medium"
-            >
-              About
-            </NavLink>
+           
             <NavLink
               to="/shop"
               activeClassName="text-indigo-400"
@@ -67,6 +61,15 @@ function Navbar() {
             >
               Shop
             </NavLink>
+
+            <NavLink
+              to="/Servicespage"
+              activeClassName="text-indigo-400"
+              className="text-gray text-decoration-none hover:text-white px-3 py-2 rounded-md text-m font-medium"
+            >
+              Services
+            </NavLink>
+
             <NavLink
               to="/blog"
               activeClassName="text-indigo-400"

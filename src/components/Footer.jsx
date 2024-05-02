@@ -47,7 +47,7 @@ function Footer() {
       </div>
 
       <div className="bg-black text-blue-600 text-center py-2">
-        Copyright © {currentYear}
+        <p>Copyright © {currentYear} All rights reserved</p>
       </div>
     </footer>
   );
