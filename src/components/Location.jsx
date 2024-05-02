@@ -2,10 +2,14 @@ import React from 'react';
 import { IoLocationOutline } from 'react-icons/io5';
 import { FaPhone } from 'react-icons/fa6';
 import { MdOutlineMail } from 'react-icons/md';
+import  Contact from '../components/Contact';
 
 function Location() {
   return (
-    <div className="flex flex-col sm:flex-row bg-slate-500 text-white p-3 justify-evenly">
+    <div>
+       < Contact />     
+
+      <div className="flex flex-col sm:flex-row bg-slate-500 text-white p-3 justify-evenly">
       <div className="flex items-center mb-2 sm:mb-0">
         <IoLocationOutline size={40} className="mr-2" />
         <span className="text-white font-semibold">
@@ -28,6 +32,11 @@ function Location() {
 
         </span>
       </div>
+
+    </div>
+
+
+    
     </div>
   );
 }

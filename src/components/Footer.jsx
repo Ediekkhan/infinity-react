@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <footer className="bg-black text-white">
-      <div className="container mx-auto px-5 py-12 flex flex-wrap justify-center">
+      <div className="container mx-auto px-3 py-6 flex flex-wrap justify-center">
         <div className="flex flex-col lg:w-1/4 w-full px-4 mb-8">
           <h4 className="text-lg font-bold mb-4">About</h4>
           <a href="/#" className="text-blue-600 mb-2">History</a>
@@ -33,10 +33,10 @@ function Footer() {
           <a href="/#" className="text-blue-600 mb-2">Management Team</a>
         </div>
 
-        <div className="flex flex-col lg:w-1/4 w-full px-4 mb-8">
-          <div className="text-light text-center mb-4">
-            <h6 className="text-lg">New WP themes are in production</h6>
-            <p>Subscribe to Bold Themes newsletter to get a notification once a new WP theme is online. We promise not to spam!</p>
+        <div className="flex flex-col lg:w-1/4 w-full  ">
+          <div className="text-light text-center">
+            <h6 className="text-lg">New packages are in production</h6>
+            <p>Subscribe to Infinity fitness newsletter to get a notification once our new Package is online.</p>
           </div>
 
           <form className="text-center">
