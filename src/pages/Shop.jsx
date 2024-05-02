@@ -55,20 +55,22 @@ const Shop = () => {
 
   return (
     <div className="container  bg-gray-100 mx-auto px-4 py-8">
-      <h2 className="text-3xl  md:font-bold sm:font-semibold mb-4 text-center">Shop Our Products</h2>
+      <h2 className="text-2xl  md:font-bold sm:font-semibold mb-4 text-center">Shop Our Products</h2>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 
 
         {products.map(product => (
           <div key={product.id} className="bg-white shadow-md rounded-md overflow-hidden">
-            <img src={product.imageUrl} alt={product.name} className="w-full h-48 object-cover" />
+            <img src={product.imageUrl} alt={product.name} className="w-full h-36  md:h-48 sm:h-48 lg:h-48 object-cover" />
             <div className="p-4">
 
-              <h3 className="text-xl  font-extralight lg:font-semibold mb-2 sm:font-normal md:font-medium ">{product.name}</h3>
-              <p className="text-gray-600 mb-2">${product.price}</p>
-              <button className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none">
-                Add to Cart
-              </button>
+              <div>
+                <h3 className="text-sm sm:text-xl md:text-xl font-extralight mb-2  ">{product.name}</h3>
+                <p className="text-gray-600 mb-2">${product.price}</p>
+                <button className="bg-blue-500 text-white md:py-2  p-2 md:px-4  lg:px-8 rounded-md hover:bg-blue-600 focus:outline-none">
+                  Add to Cart
+                </button>
+              </div>
 
             </div>
           </div>
