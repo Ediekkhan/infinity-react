@@ -34,7 +34,7 @@ function Footer() {
             <a href="/#" className="text-blue-600 hover:text-white">
               <FaTwitter size={24} />
             </a>
-            <a href="/#" className="text-blue-600 hover:text-white">
+            <a href="https://www.instagram.com/infinityfitnessgym_" className="text-blue-600 hover:text-white">
               <FaInstagram size={24} />
             </a>
           </div>
