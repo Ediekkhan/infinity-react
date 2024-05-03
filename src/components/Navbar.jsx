@@ -12,7 +12,7 @@ function Navbar() {
     <nav className="bg-black py-2 px-4" >
       <div className="flex max-md:flex-col ">
       <div className="max-w-7xl mx-auto flex flex-row md:flex-row justify-between  ml-[-180px] w-[700px] max-md:w-[253px] items-center max-md:flex-row max-md:justify-around max-md:items-around max-md:wrap">
-        <NavLink to="/" className="text-gray text-xl text-decoration-none     max-md:ml-0  max-md:mr-[60%] font-bold">
+        <NavLink to="/" className="text-gray text-sm sm:text-base md:text-lg lg:text-xl text-decoration-none  max-md:ml-0  max-md:mr-[60%] font-bold">
           INFINITY GYM
         </NavLink>
 
@@ -20,10 +20,10 @@ function Navbar() {
           {/* Dropdown toggle button */}
           <button
             onClick={toggleNavbar}
-            className="text-gray hover:text-white focus:outline-none"
+            className="text-white hover:text-blue-700 "
             aria-label="Toggle navigation"
           >
-            <svg className="h-6 r-[30px] w-6 max-md:absolute  max-md:top-[10px]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg className="h-6 r-[30px]  w-6 max-md:absolute  max-md:top-[10px]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
