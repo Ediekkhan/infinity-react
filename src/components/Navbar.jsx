@@ -12,12 +12,12 @@ function Navbar() {
     <nav className="bg-black py-2 px-4" >
       <div className="flex max-md:flex-col ">
       <div className="max-w-7xl mx-auto flex flex-row md:flex-row justify-between  ml-[-180px] w-[700px] max-md:w-[253px] items-center max-md:flex-row max-md:justify-around max-md:items-around max-md:wrap">
-        <NavLink to="/" className="text-gray text-sm sm:text-base md:text-lg lg:text-xl text-decoration-none  max-md:ml-0  max-md:mr-[60%] font-bold">
+        <NavLink to="/" className="text-gray text-sm sm:text-base md:text-lg lg:text-xl text-decoration-none  max-md:ml-0  max-md:mr-[60%] font-black">
           INFINITY GYM
         </NavLink>
 
         <div className="md:hidden ">
-          {/* Dropdown toggle button */}
+          
           <button
             onClick={toggleNavbar}
             className="text-white hover:text-blue-700 "

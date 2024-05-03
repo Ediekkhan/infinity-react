@@ -7,6 +7,7 @@ import Blog from "./pages/Blog";
 import Home from "./pages/Home";
 import Location from "./components/Location";
 import ServicesPage from "./pages/ServicesPage";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/Servicespage" element={<ServicesPage />} />
           <Route path="/Blog" element={<Blog />} />
+          <Route path="/Login" element={<Login />} />
           
         </Routes>
       </BrowserRouter>
